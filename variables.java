@@ -5,3 +5,4 @@ public class variables {
         System.out.println(num+num2);
     }
 }
+
