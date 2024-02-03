@@ -1,4 +1,4 @@
-
+//swapping first and last row
 public class twod_array {
     public static void main(String[]args)
     {
@@ -9,10 +9,8 @@ public class twod_array {
             { 7, -8, 9},// third row
             {10, 4, 4} //fourth row
             };
-
         int numRows = arr.length;
         int numCols = arr[0].length;
-
         for(int i=0;i<numCols;i++)
         {
             int temp = arr[0][i];
@@ -29,3 +27,4 @@ public class twod_array {
         }
     }
 }
+
