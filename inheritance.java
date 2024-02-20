@@ -13,13 +13,24 @@ class Dog extends Animal
     }
 }
 
-
+class BabyDog extends Dog{
+    public void cry()
+    {
+        System.out.println("can eat");
+    }
+}
 
 public class inheritance {
     public static void main(String args[])
     {
-        Dog d1 = new Dog();
-        Animal a1 = new Animal();
-        d1.eat();
+        //single inheritance
+
+        // Dog d1 = new Dog();
+        // Animal a1 = new Animal();
+        // d1.eat();
+
+        //multilevel inheritance
+        BabyDog b1 = new BabyDog();
+        b1.bark();
     }
 }
