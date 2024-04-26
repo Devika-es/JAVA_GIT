@@ -44,5 +44,9 @@ public class file_handling1 {
         {
             System.out.println("File doesn't exist");
         }
+        catch(NumberFormatException e)
+        {
+            System.out.println("Error reading file");
+        }
     }
 }
