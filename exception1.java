@@ -15,7 +15,7 @@ public class exception1 {
         }
         catch(NumberFormatException e)
         {
-            System.out.println("Number mathram patolu");
+            System.out.println("Can add only numbers");
         }
     }
 }
