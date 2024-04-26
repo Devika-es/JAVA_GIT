@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exception2 {
+public class exception_prac {
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
@@ -18,7 +18,7 @@ public class exception2 {
         }
         catch(ArrayIndexOutOfBoundsException e)
         {
-            System.out.println("Array size koravalo");
+            System.out.println("Array size less than given input");
         }
 
     }
