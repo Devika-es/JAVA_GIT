@@ -36,6 +36,6 @@ public class treeset1 {
         }
         System.out.println(tset1);
         
-
+        sc.close();
     }
 }
