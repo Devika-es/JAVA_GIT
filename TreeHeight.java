@@ -15,7 +15,7 @@ public class TreeHeight {
     }
     public int findHeight(Node node)
     {
-        if(node==null)return -1;
+        if(node==null)return -1;//Base case:Empty tree has height -1
         int left=findHeight(node.left);
         int right=findHeight(node.right);
         return Math.max(left,right)+1;
